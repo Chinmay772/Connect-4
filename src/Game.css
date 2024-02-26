@@ -1,0 +1,90 @@
+body{
+    height: 900px;
+    background-color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.panel{
+    position: absolute;
+    background-color: lightgoldenrodyellow;
+    border: 8px solid burlywood;
+    -webkit-box-shadow: 7px 5px 15px 3px rgba(0,0,0,0.9);
+    box-shadow: 7px 5px 15px 3px rgba(0,0,0,0.9);
+    z-index: 1;
+}
+.header{
+    left: 48%;
+    top: 142px;
+    height: 80px;
+    width: 300px;
+    margin-left: -120px;
+}
+.header-text{
+    font-size: 30px;
+    font-weight: bold;
+    width: 200px;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 22%;
+}
+.footer{
+    position: absolute;
+    height: 80px;
+    width: 300px;
+    top: 104%;
+    left: 19%;
+    background-color: lightgoldenrodyellow;
+    border: 8px solid burlywood;
+    -webkit-box-shadow: 7px 5px 15px 3px rgba(0,0,0,0.9);
+    box-shadow: 7px 5px 15px 3px rgba(0,0,0,0.9);
+}
+.footer button{
+    position: relative;
+    left: 8%;
+    top: 20%;
+    height: 50px;
+    width: 250px;
+    background-color: lightblue;
+    font-weight: bold;
+    font-size: 30px;
+    box-shadow: 3px 5px 10px 2px rgba(0,0,0,0.9);
+    border: 5px solid chocolate;
+}
+.gameBoard{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding:20px;
+    width: 440px;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    top: 30%;
+    background-color: bisque;
+    border: 8px solid burlywood;
+    border-radius: 8%;
+    -webkit-box-shadow: 7px 5px 15px 3px rgba(0,0,0,0.9);
+    box-shadow: 7px 5px 15px 3px rgba(0,0,0,0.9);
+
+}
+
+.gameCircle{
+    width:80px; 
+    height:80px;
+    margin:10px;
+    border-radius:50%;
+    border: 5px solid black;
+}
+
+.player_0 {
+    background-color: white;
+}
+
+.player_1 {
+    background-color: red;
+
+}
+
+.player_2 {
+    background-color: blue;
+}
